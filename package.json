@@ -7,7 +7,7 @@
         "test": "test",
 
         "cypress:open": "cypress open --config-file configs/cypress.json",
-        "cypress:run": "cypress run .\\cypress\\integration\\UITests.feature --reporter salty-cypress-testrail-reporter"
+        "cypress:run": "cypress run "
     },
     "author": "surendar",
     "license": "ISC",
