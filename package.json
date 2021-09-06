@@ -1,0 +1,27 @@
+{
+    "name": "cypresstest",
+    "version": "1.0.0",
+    "description": "sample test",
+    "main": "index.js",
+    "scripts": {
+        "test": "test",
+
+        "cypress:open": "cypress open --config-file configs/cypress.json",
+        "cypress:run": "cypress run"
+    },
+    "author": "surendar",
+    "license": "ISC",
+    "devDependencies": {
+        "cypress": "^7.7.0",
+        "cypress-cucumber-preprocessor": "^4.2.0",
+        "salty-cypress-testrail-reporter": "^1.4.0"
+    },
+    "dependencies": {
+        "cypress-downloadfile": "^1.2.0"
+    },
+    "cypress-cucumber-preprocessor": {
+        "nonGlobalStepDefinitions": true
+    }
+
+
+}
