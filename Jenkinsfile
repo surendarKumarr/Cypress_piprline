@@ -6,7 +6,7 @@ stages {
 			steps	{
 					sh 'npm install typescript'
 					sh 'npm install cypress@latest --save-dev'              
-					sh 'npm run cypress run --spec amazon.spec.ts '
+					sh 'npm run cypress open --spec amazon.spec.ts '
 				}
        	}
 	}	
