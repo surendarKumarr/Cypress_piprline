@@ -1,0 +1,26 @@
+{
+    "experimentalStudio": true,
+
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+
+
+    "reporter": "salty-cypress-testrail-reporter",
+
+
+    "reporterOptions": {
+        "domain": "surendarkumar.testrail.io",
+        "username": "tosurendarj@gmail.com",
+        "password": "Asdf123asdf",
+        "projectId": 1,
+        "suiteId": 1,
+
+        "createTestRun": false,
+        "runId": "C1",
+        "runName": "TestRun 4/09/2021"
+    }
+
+
+
+}
