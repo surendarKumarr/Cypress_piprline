@@ -4,7 +4,7 @@
     "description": "sample test",
     "main": "index.js",
     "scripts": {
-        "test": "cypress open",
+        "test": "test",
 
         "cypress:open": "cypress open --config-file configs/cypress.json",
         "cypress:run": "cypress run "
