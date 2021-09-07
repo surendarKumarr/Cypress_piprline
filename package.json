@@ -4,10 +4,14 @@
     "description": "sample test",
     "main": "index.js",
     "scripts": {
-        "test": "test",
+        "test": "cypress open",
 "cypress:open": "cypress open"
         "cypress:open": "cypress open --config-file configs/cypress.json",
         "cypress:run": "cypress run "
+ 
+ 
+}
+
     },
     "author": "surendar",
     "license": "ISC",
